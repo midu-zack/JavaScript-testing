@@ -21,6 +21,7 @@ function x() {
   // var abc = 'alhmadhulillah'
 
   for (var i = 2; i <= 60; i++) {
+
     function close(x) {
       if (x % 2 == 0) {
         setTimeout(() => {
@@ -35,3 +36,6 @@ function x() {
 }
 
 x();
+
+
+ 

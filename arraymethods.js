@@ -3,7 +3,7 @@
 let array = [ 1,3,25,6]
 array.push(90,34)
 console.log(array);
-
+    
 
 // unshift
 // push to first Element
@@ -21,4 +21,6 @@ console.log(array);
 // remove to first Element
 array.shift()
 console.log(array);
+
+// currectn value 
 

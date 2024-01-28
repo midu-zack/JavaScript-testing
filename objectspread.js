@@ -7,3 +7,5 @@ const object = {
 const task = {...object}
 
 console.log(task);
+
+
