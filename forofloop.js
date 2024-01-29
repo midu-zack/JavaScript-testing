@@ -16,16 +16,34 @@ const array = [
         age:18,
         place:'rashya',
         area : 'topstar'
+        ,test:
+        [{
+            how:'koxi'
+        }]
     },
 ]
 
  for(i of array){
 
-    if(i.name==='zack'){
-         i.name ='muhammad midlaj'
+    if(i.name==='malik'){
+
+        for(j of i.name.test ){
+        
+            if(j.how === 'koxi'){
+    
+                j.how = 'muhammad midlaj'
+        
+           }
+           console.log(array);
+    
+        }
+        
  
+            
     }
-    console.log(array);
+ 
+  
+   
     
  }
  console.log(array);
