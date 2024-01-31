@@ -1,7 +1,27 @@
-console.log('start');
+// console.log('start');
 
-setTimeout(() => {
-    console.log('callback');
-}, 3000);
+// setTimeout(() => {
+//     console.log('callback');
+// }, 3000);
 
-console.log('end');
+// console.log('end');
+
+
+// setTimeout(() => {
+//     console.log('hello');
+// }, 3000);
+
+
+
+function sample()
+{
+    let x =9
+
+    setTimeout(() => {
+        for(let i = 1 ; i <= x ; i++){
+            console.log(x);
+        }
+       
+    }, 3000);
+}
+sample()
