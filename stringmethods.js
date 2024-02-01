@@ -18,6 +18,7 @@ console.log(str.concat(string));
 // indexof
 let test = 'zack how are you'
 console.log(test.indexOf("how"));
+ 
 
 
 // subString 
@@ -37,10 +38,8 @@ console.log(str.toLocaleLowerCase());
 
 
 // split
-console.log(str.split());
-
-
+console.log(str.split(''));
+ 
 
 // replaced
-
 console.log(str.replace("MuhammedMidlaj","university" ));
