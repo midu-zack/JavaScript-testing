@@ -16,12 +16,15 @@
 function sample()
 {
     let x =9
+   
 
     setTimeout(() => {
         for(let i = 1 ; i <= x ; i++){
-            console.log(x);
+       
+            console.log(i);
         }
        
     }, 3000);
 }
+
 sample()

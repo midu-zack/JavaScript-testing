@@ -38,7 +38,17 @@ function x() {
   console.log("where are you going");
 }
 
-x();
+// x();
 
+function xs(hoo) {
+  for (var j = 1; j < hoo; j++) {
+    function sevenPlus() {
+      setTimeout(() => {
+        console.log(j);
+      }, 3000);
+    }
+    sevenPlus();
+  }
+}
 
- 
+xs(12);

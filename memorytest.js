@@ -14,6 +14,7 @@ const myPromise = new Promise((resolve,reject)=>{
 // })
 
 async function x (){
+
     try{
         let wait = await myPromise
         console.log(wait);
@@ -26,3 +27,30 @@ async function x (){
 
 x()
 
+
+let object = {
+
+    name :'FidhaSherin',
+    age:18,
+    from:'malappuram',
+    details:'PulladanHouse',
+
+    address:{
+        firstName:'Midlaj',
+        lastName:'Zack'
+
+    },
+
+    collectionValues:[1,2,3,4,233,12]
+
+}
+
+//
+
+// console.log(object.collectionValues); 
+for(let i  in object){
+    console.log(i);
+
+    
+     
+}

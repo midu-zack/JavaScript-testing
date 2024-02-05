@@ -1,5 +1,6 @@
 // promise
 const testPromise = new Promise((resolve,reject)=>{
+
     const data  =  'perfect'
 
     if(data){
@@ -7,6 +8,7 @@ const testPromise = new Promise((resolve,reject)=>{
     }else{
         reject('sorry this is not possible')
     }
+
 })
 
 
@@ -55,11 +57,11 @@ if(test){
 
 
 
-//    splice 
+// splice 
 
 let array = [1,2,3,4,5,6,7,8,9] 
 
-let result = array.splice(5,2,100) //the array modify
+let result = array.splice(5,8,100) //the array modify
 
 console.log(array);
 console.log(result);

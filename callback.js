@@ -1,4 +1,3 @@
-
 // callback to syncrns
 function getname(callback){
 

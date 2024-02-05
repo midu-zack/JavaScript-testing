@@ -1,22 +1,4 @@
-// const cart = [ 'shoe','pants','shirt'] 
-
-//  createOrder(cart , function (oderId){
-//     proceedToPayment (oderId,function(paymentInfo){
-//         showOrderSummery(paymentInfo,function(){
-//             updateBalance()
-//         })
-//     })
-
-// })
-
-
-// createOrder(cart)
-
-//         .then((oderId)=> proceedToPayment(oderId))
-//         .then((paymentInfo)=> showOrderSummery(paymentInfo))
-//         .then((paymentInfo)=> updateBalance(paymentInfo));
-
-
+ 
 
 
 function sample(x){

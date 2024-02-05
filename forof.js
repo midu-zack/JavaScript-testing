@@ -33,6 +33,7 @@ console.log(x);
 
 
 const pro = new Promise ((resolve,reject)=>{
+    
     setTimeout(() => {
         const test = true
 
