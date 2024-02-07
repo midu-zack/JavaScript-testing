@@ -41,14 +41,36 @@ function x() {
 // x();
 
 function xs(hoo) {
-  for (var j = 1; j < hoo; j++) {
+  for (let j = 1; j < hoo; j++) {
     function sevenPlus() {
       setTimeout(() => {
         console.log(j);
-      }, 3000);
+      },3000);
     }
     sevenPlus();
   }
 }
 
 xs(12);
+
+
+
+// closure
+function add(a,b){
+
+  function top(){
+    const result = a+b
+    return result
+  }
+
+  return top()
+ 
+
+}
+
+function main(){
+  let fun = add(12,8)
+  console.log(fun);
+}
+
+main()

@@ -89,8 +89,10 @@ let resultReduc=testingArray.reduce((acc,curr)=>{
 
 console.log(resultReduc);
 
+
+
 // findsum
-let resultsum = testingArray.reduce((curr,val)=>{
-    return curr+val
+let resultsum = testingArray.reduce((curr,index)=>{
+    return curr+index
 })
 console.log(resultsum);
